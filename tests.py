@@ -98,7 +98,7 @@ class BasicTestCase(unittest.TestCase):
         self.assertListEqual(longest, expected)
 
     def test_get_total_albums_length(self):
-        expected = 9.18
+        expected = 9.11
         albums = [
             ["rock", "rock", "966", "pop", "3:51"],
             ["Shorts", "Short", "1991", "hip hop", "5:20"]
